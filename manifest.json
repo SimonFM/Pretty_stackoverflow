@@ -3,14 +3,14 @@
   "description": "Makes white backgrounds easy to read",
   "version": "2.0",
   "permissions": [
-    "tabs", "http://*.stackoverflow.com/*"
+    "tabs", "*://*/*"
   ],
   "icons": {"128": "icon.png" },
   "content_scripts": [
     {
-      "matches": ["http://*.stackoverflow.com/*"],
+      "matches": ["*://*/*"],
       "js": ["changeColour.js"],
-	  "run_at": "document_end"
+	  "run_at": "document_start"
     }
   ],
   "background": {

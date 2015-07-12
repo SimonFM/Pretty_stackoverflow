@@ -10,19 +10,12 @@ chrome.tabs.onUpdated.addListener(function(tab){
 	  });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    document.body.style.backgroundColor="#a4a9ab";
-	document.getElementById("content").style.backgroundColor = "#a4a9ab";
-	var all = document.getElementsByClassName("summary");
-	for(var i = 0; i < all.length;i++)
-	{
-		all[i].style.color = "#000000"
-	};
-});
+document.addEventListener("DOMContentLoaded", changeThings());
  
 function changeThings(){
 	document.body.style.backgroundColor="#a4a9ab";
 	document.getElementById("content").style.backgroundColor = "#a4a9ab";
+	document.getElementById("sidebar").style.backgroundColor = "#a4a9ab";
 	var all = document.getElementsByClassName("summary");
 	for(var i = 0; i < all.length;i++)
 	{
