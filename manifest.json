@@ -8,7 +8,10 @@
   "icons": {"128": "icon.png" },
   "content_scripts": [
     {
-      "matches": ["*://*/*"],
+      "matches": ["*://stackoverflow.com/*","*://*.stackoverflow.com/*",
+				  "*://youtube.com/*","*://*.youtube.com/*",
+				  "*://reddit.com/*","*://*.reddit.com/*",
+				  "*://xkcd.com/*","*://*.xkcd.com/*"],
       "js": ["changeColour.js"],
 	  "run_at": "document_start"
     }
