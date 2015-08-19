@@ -1,5 +1,5 @@
 {
-  "name": "EZ on the I",
+  "name": "Nice Backgrounds",
   "description": "Makes white backgrounds easy to read",
   "version": "2.0",
   "permissions": [
@@ -10,7 +10,6 @@
     {
       "matches": ["*://stackoverflow.com/*","*://*.stackoverflow.com/*",
 				  "*://youtube.com/*","*://*.youtube.com/*",
-				  "*://reddit.com/*","*://*.reddit.com/*",
 				  "*://xkcd.com/*","*://*.xkcd.com/*"],
       "js": ["changeColour.js"],
 	  "run_at": "document_start"
