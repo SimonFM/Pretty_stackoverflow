@@ -29,7 +29,7 @@ rectangles. The **slider** gradient rectangle represents the _hue_ value (gradie
 two overlapping black and white gradient rectangles of the **picker** represent the _saturation_ and _value_ values.
 The top level elements (`<svg>` in case of SVG enabled browser and `<div>` in case of VML enabled browser) 
 that wrap each of the **slider** and **picker** gradient rectangles have set `width` and `height` to `100%` which
-means that the color picker components (slider and picker) adjust themselfs automatically to the dimensions of the **slider** and **picker**
+means that the color picker components (slider and picker) adjust themselves automatically to the dimensions of the **slider** and **picker**
 HTML elements.
 
 

@@ -230,7 +230,7 @@
         this.v = 1;
 
         if (!callback) {
-            // call of the form ColorPicker(element, funtion(hex, hsv, rgb) { ... }), i.e. the no-hassle call.
+            // call of the form ColorPicker(element, function(hex, hsv, rgb) { ... }), i.e. the no-hassle call.
 
             var element = slideElement;
             element.innerHTML = colorpickerHTMLSnippet;
